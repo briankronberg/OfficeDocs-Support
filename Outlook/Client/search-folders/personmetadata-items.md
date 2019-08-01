@@ -27,7 +27,18 @@ The PersonMetadata folder is created and used by the [Outlook Customer Manager (
 
 Although these items have a blank subject, they are actively used by OCM and should not be deleted or modified. It is a search folder limitation to include mail items from hidden folders.
 
-Use the following workaround to avoid including mail items from hidden folders in your search results.
+Use one of the following workarounds to avoid including mail items from hidden folders in your search results.
+
+Workaround #1 - Limit search to specific folders
 1. Right-click the Search Folder, and click **Customize This Search Folder**.
 2. Click **Browse**, and deselect the **Search Subfolders** option.
 3. Manually select the folders you wish to include. 
+
+Workaround #2 - Limit search to messages with something in the TO: field
+1. Right-click the Search Folder, and click **Customize This Search Folder**
+2. Click **Criteria**
+3. In the Search Folder Criteria window, , click on the **Advanced** tab
+4. Click on **Field**, **Frequently-used Fields**, and then **To**
+5. Change **Condition** to **is not empty**
+6. Click on the **Add to List** button
+7. Click on the **OK** button twice to save the settings.
